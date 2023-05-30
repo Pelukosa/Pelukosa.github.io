@@ -1,53 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Alejandro Recio Page</title>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="/assets/css/main.css" />
-    </head>
-    <body a="auto">
-        <main class="page-content" aria-label="Content">
-            <div class="w">
-                <header>
-                    <h1>Alejandro Recio Page</h1>
-                </header>
-                <ul>
-                    <li>Pages</li>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/Pelukosa">Github</a>
-                        </li>
-                        <li>
-                          <a href="https://www.linkedin.com/in/alejandro-recio-dev/">LinkedIn</a>
-                      </li>
-                    </ul>
-                    <li>Projects</li>
-                    <ul>
-                        <li>
-                            <a href="https://hobbyhunt.app">HobbyHunt</a>
-                        </li>
-                        <li>
-                            <a href="">Personal Wallet</a>
-                        </li>
-                        <li>
-                            <a href="">Vehicle Management</a>
-                        </li>
-                        <li>
-                            <a href="#">Arfix</a>
-                        </li>
-                        <li>
-                            <a href="#">Twitter trading bot</a>
-                        </li>
-                        <li>
-                          <a href="#">Streetio</a>
-                      </li>
-                    </ul>
-                </ul>
+    <title>Alejandro Recio Page</title>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body a="auto">
+    <div class="window">
+        <div class="bar">
+            <div class="btn"></div>
+        </div>
+        <div class="body">
+            <div id="terminal-commands">
+                <div class="comment"># Hi, nice to meet you! Please, click on commands to explore results</div>
+                <div class="prompt">$ <span class="command">ls</span></div>
+                <div id="menu" class="ls-result">
+                    <div id="profile" class="text-[#e1b7fb] cursor-pointer">
+                        <i class="fa-solid fa-user"></i> Profile
+                    </div>
+                    <div class="text-[#a3a3a3]">
+                        <a href="https://github.com/Pelukosa" target="_blank"><i class="fa-brands fa-github"></i>
+                            Github</a>
+                    </div>
+                    <div class="text-[#8dbeee]">
+                        <a href="https://www.linkedin.com/in/alejandro-recio-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                    <div id="projects" class="text-[#e2ffb3] cursor-pointer">
+                        <i class="fa-brands fa-app-store-ios"></i> Projects
+                    </div>
+                </div>
             </div>
-        </main>
-    </body>
+            <div class="prompt">$ <span class="pulse">_</span></div>
+        </div>
+        <script src="assets/js/main.js"></script>
+</body>
+
 </html>
