@@ -41,7 +41,6 @@ profileButton.onclick = function () {
     const text = `My name is Alejandro, and I'm a software developer primarily focused on PHP. I have experience with Python, APIs, message queues like RabbitMQ, Laravel, ReactJS, and more. I enjoy tackling complex problems and creating innovative solutions using technology. I'm skilled in the entire software development life cycle, from requirements gathering to implementation and testing. I thrive on collaborating with cross-functional teams and staying updated with the latest trends in the software development field.`;
     setTimeout(function () {
         addTextToTerminal(text);
-        // ls();
     }, 1000);
 };
 
@@ -65,7 +64,6 @@ projectsButton.onclick = function () {
             }
         }
         terminal.appendChild(node);
-        // ls();
     }, 1000);
 };
 
